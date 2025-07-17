@@ -1,27 +1,58 @@
-Automated Attendance Using Face Recognition
-A real-time attendance system built with Python and OpenCV that uses the LBPH algorithm for face recognition and logs attendance in CSV format.
+# AUTOMATED ATTENDANCE USING FACE RECOGNITION
+A real-time attendance system using Python and OpenCV for face detection and recognition. Attendance is logged in CSV format for easy tracking.
 
-Features
-Real-time face detection (Haar Cascade)
-Face recognition using LBPH
-Logs name, date, and time
-Stores daily attendance in CSV (Excel-compatible)
-Optional UI: Tkinter or Web-based
+## About
+Automates attendance through face recognition using webcam. Detects and recognizes faces, logs date and time in CSV files.
 
-Technologies
-Python
-OpenCV
-Pandas
-Haar Cascade
-LBPH Face Recognizer
+## Tech Stack
+- Python
+- OpenCV
+- Pandas
+- Haar Cascade (Face Detection)
+- LBPH (Face Recognition)
+- Tkinter / Flask (Optional UI)
 
-How to Use
-1️⃣ Login
-Enter credentials to access the dashboard.
+## Features
+- Real-time face detection
+- Face recognition with LBPH
+- Logs name, date, time
+- Stores CSV files per day
+- GUI or Web-based interface (optional)
 
-2️⃣ Dashboard Options
-Capture Student Images – Use webcam to collect face data
-Train Model – Train the recognizer on captured images
-Start Attendance – Recognize faces in real-time and log attendance
-View Enrolled Students – See all enrolled students
-View Attendance Logs – Check daily CSV attendance reports
+## Project Structure
+attendance-system/
+├── backend/
+│ ├── app.py
+│ ├── face_capture.py    # Capture student images
+│ ├── train_model.py     # Train LBPH model
+│ ├── recognize_face.py  # Real-time recognition
+├── data/
+│ ├── pics/              # Collected student images
+│ └── rollno_name        # Saved face model
+├── attendanceRecords/
+│ └── 2025-07-17.csv
+├── frontend/
+│   ├── main_gui.py      # Tkinter-based dashboard
+
+
+## How to Use
+### 1. Login
+Enter your credentials to access the system.
+### 2. Dashboard Functions
+- **Capture Student Images** – Capture student face data via webcam.
+- **Train Model** – Train the face recognizer on collected data.
+- **Start Attendance** – Detect faces and mark attendance automatically.
+- **View Enrolled Students** – Display all enrolled students.
+- **View Attendance Logs** – Show/download daily CSV reports.
+### 3. Attendance Logs
+Logs are stored day-wise in:
+attendance_logs/
+├── 2025-07-17.csv
+├── 2025-07-18.csv
+...
+
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
