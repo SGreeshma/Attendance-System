@@ -34,7 +34,6 @@ attendance-system/
 ├── frontend/
 │   ├── main_gui.py      # Tkinter-based dashboard
 
-
 ## How to Use
 ### 1. Login
 Enter your credentials to access the system.
@@ -53,11 +52,6 @@ attendance_logs/
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Author
-Greeshma Somarouthu
-Email: somarouthugreeshma
-Location: Hyderabad, India
 
 ## License
 This project is licensed under the MIT License.
