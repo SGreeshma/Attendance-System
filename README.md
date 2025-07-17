@@ -34,7 +34,6 @@ attendance-system/
 ├── frontend/
 │   ├── main_gui.py      # Tkinter-based dashboard
 
-<pre> ```bash attendance-system/ ├── backend/ │ ├── app.py # Flask server │ ├── face_capture.py # Capture student images │ ├── train_model.py # Train LBPH model │ ├── recognize_face.py # Real-time recognition ├── data/ │ ├── pics/ # Collected student images │ └── rollno_name # Saved face model ├── attendanceRecords/ │ └── 2025-07-17.csv # Daily CSV logs ├── frontend/ │ ├── main_gui.py # Tkinter-based dashboard ``` </pre>
 
 ## How to Use
 ### 1. Login
