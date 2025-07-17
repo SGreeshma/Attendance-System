@@ -50,6 +50,10 @@ attendance_logs/
 ├── 2025-07-18.csv
 ...
 
+## Screenshots
+<img width="758" height="932" alt="image" src="https://github.com/user-attachments/assets/947f9083-97da-4faf-8d25-22083990514b" />
+
+
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
